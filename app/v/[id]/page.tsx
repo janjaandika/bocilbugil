@@ -88,18 +88,18 @@ export default async function Video({ params }: PageProps) {
         name: `${file.title}`,
         image: file.splash_img,
         description: `${file.title} di ${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma`,
-        url: `https://abgsquirt.pages.dev/v/${file.filecode}`,
+        url: `https://bocilbugil.pages.dev/v/${file.filecode}`,
         datePublished: new Date(
             file.uploaded + ".000Z"
         ).toISOString(),
         publisher: {
             '@type': 'Organization',
             name: `${SITENAME}`,
-            logo: 'https://abgsquirt.pages.dev/favicon.ico'},
+            logo: 'https://bocilbugil.pages.dev/favicon.ico'},
             author: {
                 '@type': 'Person',
                 name: 'admin',
-                url: 'https://abgsquirt.pages.dev'
+                url: 'https://bocilbugil.pages.dev'
               }
         }
         const jsonLd2 = {
@@ -108,18 +108,18 @@ export default async function Video({ params }: PageProps) {
         headline: `${file.title}`,
         image: file.splash_img,
         description: `${file.title} di ${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma`,
-        url: `https://bociltocil.pages.dev/v/${file.filecode}`,
+        url: `https://bocilbugil.pages.dev/v/${file.filecode}`,
         datePublished: new Date(
             file.uploaded + ".000Z"
         ).toISOString(),
         publisher: {
             '@type': 'Organization',
             name: `${SITENAME}`,
-            logo: 'https://bociltocil.pages.dev/favicon.ico'},
+            logo: 'https://bocilbugil.pages.dev/favicon.ico'},
             author: {
                 '@type': 'Person',
                 name: 'admin',
-                url: 'https://bociltocil.pages.dev'
+                url: 'https://bocilbugil.pages.dev'
               }
         }
         
@@ -127,7 +127,6 @@ export default async function Video({ params }: PageProps) {
         <div className="grid col-span-full gap-4 md:gap-4 md:mx-10" itemProp="video" itemScope itemType="http://schema.org/VideoObject">
 <meta itemProp="author" content="admin" />
 <meta itemProp="name" content={`${file.title}`} />
-<meta itemProp="description" content={`${file.title}`} />
 <meta itemProp="description" content={`${file.title} di ${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma`} />
 <meta itemProp="duration" content={`${file.length}`} />
 <meta itemProp="thumbnailUrl" content={`${file.splash_img}`} />
